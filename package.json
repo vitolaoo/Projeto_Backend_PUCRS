@@ -1,0 +1,29 @@
+{
+    "name": "projeto-backend",
+    "version": "0.1.0",
+    "description": "sistema backend para app de assinaturas",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: No tests specified\" && exit 1"
+    },
+    "keywords": [
+        "subscription",
+        "backend",
+        "microservices",
+        "node.js"
+    ],
+    "author": "Arthur Vitola <abvitolla@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "ioredis": "^4.28.1",
+        "mysql2": "^3.9.8",
+        "pg": "^8.7.1",
+        "sequelize": "^6.7.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
